@@ -50,5 +50,5 @@ function sound(key){
     function animate(key){
       var element=document.querySelector("." + key);
       element.classList.add("pressed");
-      setTimeout(function(){element.classList.remove("pressed");   },300);
+      setTimeout(function(){element.classList.remove("pressed");   },100);
     }
